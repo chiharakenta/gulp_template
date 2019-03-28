@@ -6,6 +6,18 @@ sassを使うための設定テンプレ
 - Gulp CLI 2.0.1
 - Gulp local 4.0.0
 
+
+### 開発環境構築
+- https://nodejs.org/ja/ から Node.js 10.15.3 をインストール
+- ターミナルで以下のコードを実行
+    ```
+    $ node --version
+    $ npm --version
+    $ npm install -g gulp
+    $ gulp --version
+    ```
+ 
+  
 ### セットアップ手順
 ```
 $ git clone https://github.com/chiharakenta/gulp_template.git

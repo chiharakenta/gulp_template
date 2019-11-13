@@ -63,3 +63,8 @@ table {
 /*******
 *Object*
 *******/
+.c-button {
+  font-size: 60px;
+  background-color: pink;
+  display: inline-block;
+}

@@ -68,3 +68,62 @@ table {
   background-color: pink;
   display: inline-block;
 }
+
+.header {
+  padding: 50px;
+  background-color: #000000;
+  overflow: hidden;
+}
+
+.header-title {
+  font-size: 60px;
+  color: #FFFFFF;
+  float: left;
+}
+
+.header-menu {
+  position: relative;
+  float: right;
+  width: 80px;
+  height: 60px;
+  box-sizing: border-box;
+}
+
+.header-menu div {
+  position: absolute;
+  width: 80px;
+  height: 10px;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.header-menu div:nth-of-type(1) {
+  top: 0;
+}
+
+.header-menu div:nth-of-type(2) {
+  top: 25px;
+}
+
+.header-menu div:nth-of-type(3) {
+  bottom: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.top-concept {
+  background-color: #000000;
+  overflow: hidden;
+  padding: 50px;
+}
+
+.top-catchphrase {
+  font-size: 60px;
+  color: #FFFFFF;
+  text-align: center;
+}

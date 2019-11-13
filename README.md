@@ -6,8 +6,8 @@
   
 # セットアップ手順
 ```
-$ git clone https://github.com/chiharakenta/gulp_template.git
-$ cd gulp_template
+$ git clone https://github.com/team-giver/roomic-lp.git
+$ cd roomic-lp
 $ npm install
 $ gulp
 ```
